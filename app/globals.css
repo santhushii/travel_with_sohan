@@ -1,26 +1,163 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #02070C;
+  --foreground: #FFFFFF;
+  --primary: #22E6C5;
+  --primary-glow: rgba(34, 230, 197, 0.7);
+  --secondary: #3BB2E3;
+  /* Higher contrast for accessibility */
+  --text-primary: #FFFFFF;
+  --text-secondary: #F1F5F9; /* Shifting from D0D8E0 to a brighter Slate-100 */
+  --text-muted: #CBD5E1; /* Shifting from 7C8A96 to Slate-300 */
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-panel: rgba(5, 15, 25, 0.85);
+  --feature-panel: rgba(7, 18, 28, 0.95);
+  --overlay-dark: rgba(3, 10, 18, 0.9);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+html {
+  /* scroll-behavior managed by Lenis */
+  font-size: 16px; /* Base size */
+}
+
+@media (max-width: 640px) {
+  html {
+    font-size: 14px; /* Slightly smaller base for mobile to scale rem better */
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-secondary);
+  background: linear-gradient(180deg, #02070C 0%, #050E16 100%);
+  position: relative;
+  /* Premium font stack with Japanese support */
+  font-family: var(--font-inter), "Noto Sans JP", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", system-ui, sans-serif;
+  overflow-x: hidden;
+  min-height: 100vh;
+  line-height: 1.6; /* Better readability */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Clean Background for Performance */
+body {
+  background: #02070C;
+}
+
+body::before {
+  display: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-poppins), var(--font-inter), system-ui, sans-serif;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: var(--font-poppins), system-ui, sans-serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-inter), "Noto Sans JP", system-ui, sans-serif;
+  }
+
+  .text-gradient {
+    background: linear-gradient(to right, #22E6C5, #3BB2E3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .glass-card {
+    background: rgba(10, 25, 35, 0.98);
+    border: 1px solid var(--glass-border);
+  }
+
+  .glass-navbar {
+    background: rgba(5, 15, 25, 0.98);
+    border-bottom: 1px solid var(--glass-border);
+  }
+
+  .glass-navbar-scroll {
+    background: rgba(5, 15, 25, 1);
+  }
+
+  .feature-strip {
+    background: var(--feature-panel);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+  }
+
+  .hover-glow {
+    transition: all 0.3s ease;
+  }
+
+  .hover-glow:hover {
+    border-color: var(--primary);
+    box-shadow: 0 0 25px rgba(34, 230, 197, 0.2);
+    transform: translateY(-2px);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #02070C;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #22E6C5, #14c9aa);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #22E6C5, #3BB2E3);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--primary);
+  color: #000000;
+}
+
+/* Gentle float animation for premium elements like maps/visuals */
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(0.5deg);
+  }
+}
+
+.animate-float-gentle {
+  animation: float-gentle 6s ease-in-out infinite;
 }

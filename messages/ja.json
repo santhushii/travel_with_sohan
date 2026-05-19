@@ -1,0 +1,185 @@
+{
+  "Navbar": {
+    "home": "ホーム",
+    "about": "私たちについて",
+    "tours": "ツアー",
+    "destinations": "観光地",
+    "gallery": "ギャラリー",
+    "reviews": "レビュー",
+    "contact": "お問い合わせ",
+    "chat": "チャット（WhatsApp）"
+  },
+  "Hero": {
+    "title1": "SOHAN と行く",
+    "title2": "スリランカの旅",
+    "cta": "旅を予約する",
+    "subtitle": "公認国家ガイドと共に行く、本物のスリランカ体験。",
+    "item1": "文化の三角地帯 — 古代寺院、聖地、豊かな遺産",
+    "item2": "高地エリア — 茶畑、霧深い山々、涼しい気候",
+    "item3": "サファリと野生動物 — ゾウ、ヒョウ、珍しい鳥たち",
+    "item4": "南海岸のビーチ — 原生的な海岸線、エメラルドグリーンの海",
+    "item5": "食と村の暮らし — 本場の料理、村での生活体験",
+    "feature1": "スリランカ公認国家ガイド",
+    "feature2": "カスタム・プライベートツアー",
+    "feature3": "24時間 WhatsApp サポート"
+  },
+  "PopularTours": {
+    "overline": "厳選された体験",
+    "title": "人気のツアー",
+    "viewAll": "すべてのツアーを見る",
+    "tour1Title": "シーギリヤとダンブッラ",
+    "tour2Title": "エッラとヌワラエリヤ",
+    "tour3Title": "ヤラ・サファリと海岸線",
+    "tour4Title": "ゴールとミリッサ"
+  },
+  "Discover": {
+    "title1": "世界を見つけよう",
+    "title2": "新しい",
+    "title3": "スタイルで",
+    "description": "ガイドブックには載っていない、スリランカの隠れた名所を巡るパーソナライズされた旅を体験してください。",
+    "exploreTours": "ツアーを見る",
+    "viewGallery": "ギャラリーを見る",
+    "quote": "旅をすることで、私たちは謙虚になれる。想像もできなかった方法で世界を見ることができるから。",
+    "author": "カルロス・カスタネダ"
+  },
+  "Tours": {
+    "titlePrefix": "私たちの",
+    "titleSuffix": "ツアー",
+    "subtitle": "スリランカの魅力を最大限に引き出す、こだわりの体験プラン",
+    "filters": {
+      "title": "絞り込み",
+      "type": "ツアータイプ",
+      "duration": "期間",
+      "allTypes": "すべてのタイプ",
+      "allDurations": "すべての期間",
+      "culture": "文化・歴史",
+      "beach": "ビーチ・リゾート",
+      "safari": "サファリ・野生動物",
+      "hiking": "ハイキング・冒険",
+      "short": "1-3 日",
+      "medium": "4-6 日",
+      "long": "7日以上"
+    },
+    "request": "このツアーを予約する",
+    "noTours": "条件に一致するツアーが見つかりませんでした。条件を変えてお試しください。"
+  },
+  "Common": {
+    "explore": "探索する",
+    "learnMore": "もっと詳しく"
+  },
+  "QuickBook": {
+    "title": "旅のプランを立てる",
+    "subtitle": "詳細を入力して、今すぐスリランカの冒険を始めましょう。",
+    "submit": "WhatsAppで予約内容を確認する",
+    "successTitle": "リクエスト送信完了！",
+    "successDesc": "24時間以内にWhatsAppにて返信いたします。"
+  },
+  "LocaleSwitcher": {
+    "label": "言語"
+  },
+  "About": {
+    "headerTitle": "Sohan について",
+    "headerTitleHighlight": "Sohan",
+    "headerSubtitle": "本物のスリランカ体験へとご案内する、信頼できるガイド",
+    "profileName": "Sohan Nallaperuma",
+    "profileTitle": "National Tourist Guide Lecturer",
+    "welcomeTitle": "スリランカへようこそ",
+    "welcomeP1": "アーユボーワン！Sohan Nallaperumaです。10年以上の経験を持つ公認国家ガイド・ドライバーガイドです。この楽園のような島で生まれ育ったからこそ知っている、古代の歴史遺産から隠れた名所まで、スリランカの本当の魅力をご案内します。",
+    "welcomeP2": "歴史文化、野生動物サファリ、絶景の列車旅、南国のビーチなど、あなたの好みに合わせたオーダーメイドのプライベートツアーをご提案します。一緒にスリランカで最高の思い出を作りましょう！",
+    "welcomeP3": "",
+    "licensesTitle": "公認ライセンス・認定",
+    "licenseName": "登録名",
+    "guideType": "ガイドタイプ",
+    "guideNumber": "登録番号",
+    "authorizedBy": "公認機関：スリランカ政府観光局",
+    "allIsland": "全土対応",
+    "nationalGuideLecturer": "National Tourist Guide Lecturer",
+    "chauffeurGuideLecturer": "Chauffeur Tourist Guide Lecturer",
+    "badges": {
+      "licensed": "公認国家ガイド",
+      "rated": "5つ星評価",
+      "travelers": "1000名以上の実績",
+      "countries": "30か国以上から",
+      "passionate": "情熱的なローカル"
+    },
+    "journeyTitle": "これまでの歩み",
+    "timeline": {
+      "training": {
+        "year": "2020年",
+        "title": "特別トレーニング",
+        "description": "野生動物および文化遺産に関する高度な専門コースを修了"
+      },
+      "travelers": {
+        "year": "2024年",
+        "title": "1000名以上の旅行者",
+        "description": "1000名を超える旅行者がスリランカの魅力を発見するのをお手伝い"
+      },
+      "chauffeur": {
+        "year": "2026年",
+        "title": "公認ドライバーガイド・講師ライセンス",
+        "description": "スリランカ政府観光局より公認ドライバーガイド・講師（C-1754）として正式認定"
+      },
+      "national": {
+        "year": "2026年",
+        "title": "公認国家ガイド・講師ライセンス",
+        "description": "スリランカ政府観光局より最高位の公認国家ガイド・講師（N-2355）ライセンスを取得"
+      }
+    },
+    "whyTitle": "選ばれる理由",
+    "why1Title": "地元の圧倒的な知識",
+    "why1Desc": "スリランカで生まれ育ったからこそ知っている、ガイドブックには載っていない最高の穴場や本物の体験をご案内します。",
+    "why2Title": "完全オーダーメイド",
+    "why2Desc": "旅行者一人ひとりは特別です。あなたの興味、ペース、好みに合わせて、世界にひとつだけの旅を作ります。",
+    "why3Title": "情熱的なストーリーテラー",
+    "why3Desc": "歴史は物語を通して息を吹き返します。それぞれの場所を特別なものにしている伝説、文化、伝統をお話しします。"
+  },
+  "Reviews": {
+    "title": "世界中の旅行者からの",
+    "titleHighlight": "信頼",
+    "subtitle": "グローバルなファミリーからのリアルな体験談",
+    "badgeTitle": "tripadvisor",
+    "badgeRating": "5.0",
+    "badgeCount": "100件以上のレビュー",
+    "badgeRank": "スリランカでおすすめのガイド第1位に選出 →",
+    "testimonials": [
+      {
+        "name": "ジェシカ M.",
+        "country": "イギリス",
+        "text": "ソハンさんは本当に素晴らしいガイドです！彼と一緒にスリランカを10日間旅しましたが、まるで古い友人と旅しているようでした。歴史や自然に関する彼の知識は群を抜いています。"
+      },
+      {
+        "name": "ダビデ ＆ キアラ",
+        "country": "イタリア",
+        "text": "忘れられない体験になりました！ヤラでのサファリからエッラへの列車旅まで、ソハンさんはすべてを完璧に手配してくれました。運転も安全で、本当に素晴らしい方です。"
+      },
+      {
+        "name": "トーマス H.",
+        "country": "ドイツ",
+        "text": "ソハンさんに予約したことは、私たちの旅で最大の正解でした。ガイドブックには載っていない隠れた滝や地元のグルメスポットを案内してくれました。強くお勧めします！"
+      },
+      {
+        "name": "サラ・ジェンキンス",
+        "country": "オーストラリア",
+        "text": "ソハンさんは私たちの興味に合わせて旅行全体をカスタマイズしてくれました。スリランカに対する彼の情熱は周りに伝わります。スリランカに行くなら、ソハンさんをガイドに指名すべきです！"
+      },
+      {
+        "name": "ピエール・デュボワ",
+        "country": "フランス",
+        "text": "素晴らしいサービスでした。ソハンさんはいつも時間を守り、とても丁寧で、英語も完璧でした。ミニバンは清潔で、4人家族の私たちにとって非常に快適でした。"
+      },
+      {
+        "name": "エミリー・チェン",
+        "country": "シンガポール",
+        "text": "ソハンさんのおかげで魔法のような旅になりました。混雑を避けるために人気の観光地を訪れる最適な時間を熟知していました。文化三角地帯のツアーは最高でした！"
+      }
+    ]
+  },
+  "Footer": {
+    "description": "スリランカ公認のナショナルガイド。この美しい島を巡る、本物でパーソナライズされた旅をお届けします。",
+    "location": "スリランカ",
+    "quickLinks": "クイックリンク",
+    "connect": "お問い合わせ",
+    "allRights": "© {year} Travel With Sohan. All rights reserved.",
+    "crafted": "Crafted with ♥ by"
+  }
+}

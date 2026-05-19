@@ -1,0 +1,185 @@
+{
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "tours": "Tours",
+    "destinations": "Destinations",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "contact": "Contact",
+    "chat": "Chat"
+  },
+  "Hero": {
+    "title1": "TRAVEL WITH",
+    "title2": "SOHAN",
+    "cta": "Book Your Journey",
+    "subtitle": "Experience authentic Sri Lanka with a licensed national guide.",
+    "item1": "Cultural Triangle — Ancient temples, sacred cities, rich heritage",
+    "item2": "Hill Country — Tea plantations, misty mountains, cool climate",
+    "item3": "Safari & Wildlife — Elephants, leopards, exotic birds",
+    "item4": "South Coast Beaches — Pristine shores, turquoise waters",
+    "item5": "Food & Village Life — Authentic cuisine, village experiences",
+    "feature1": "Licensed National Guide",
+    "feature2": "Custom Private Tours",
+    "feature3": "24/7 WhatsApp Support"
+  },
+  "PopularTours": {
+    "overline": "Curated Experiences",
+    "title": "MOST POPULAR TOURS",
+    "viewAll": "Explore All Tours",
+    "tour1Title": "Sigiriya & Dambulla",
+    "tour2Title": "Ella & Nuwara Eliya",
+    "tour3Title": "Yala Safari & Coast",
+    "tour4Title": "Galle & Mirissa"
+  },
+  "Discover": {
+    "title1": "DISCOVER THE WORLD",
+    "title2": "IN A NEW",
+    "title3": "WAY",
+    "description": "Experience the hidden gems of Sri Lanka with personalized itineraries that go beyond the guidebook.",
+    "exploreTours": "EXPLORE TOURS",
+    "viewGallery": "VIEW GALLERY",
+    "quote": "Travel makes one modest. You see the world in a way you never imagined.",
+    "author": "CARLOS CASTANEDA"
+  },
+  "Tours": {
+    "titlePrefix": "Our",
+    "titleSuffix": "Tours",
+    "subtitle": "Handcrafted experiences designed to showcase the best of Sri Lanka",
+    "filters": {
+      "title": "Filter By",
+      "type": "Tour Type",
+      "duration": "Duration",
+      "allTypes": "All Types",
+      "allDurations": "Any Duration",
+      "culture": "Cultural",
+      "beach": "Beach",
+      "safari": "Safari",
+      "hiking": "Hiking",
+      "short": "1-3 Days",
+      "medium": "4-6 Days",
+      "long": "7+ Days"
+    },
+    "request": "Request This Tour",
+    "noTours": "No tours match your filters. Try adjusting your selection."
+  },
+  "Common": {
+    "explore": "Explore",
+    "learnMore": "Learn More"
+  },
+  "QuickBook": {
+    "title": "Plan Your Journey",
+    "subtitle": "Fill in the details and start your Sri Lankan adventure today.",
+    "submit": "Confirm via WhatsApp",
+    "successTitle": "Request Sent!",
+    "successDesc": "I will get back to you on WhatsApp within 24 hours."
+  },
+  "LocaleSwitcher": {
+    "label": "Language"
+  },
+  "About": {
+    "headerTitle": "About Sohan",
+    "headerTitleHighlight": "Sohan",
+    "headerSubtitle": "Your trusted guide to authentic Sri Lankan experiences",
+    "profileName": "Sohan Nallaperuma",
+    "profileTitle": "National Tourist Guide Lecturer",
+    "welcomeTitle": "Welcome to My Sri Lanka",
+    "welcomeP1": "Ayubowan! I am Sohan Nallaperuma, a licensed National Tourist Guide Lecturer and Chauffeur Guide Lecturer with over 10 years of experience. Born and raised on this paradise island, I love showing travelers the true heart of Sri Lanka, from its ancient heritage to its hidden gems.",
+    "welcomeP2": "I specialize in crafting personalized, hassle-free private tours tailored to your interests—whether you are seeking cultural history, wildlife safaris, scenic train rides, or tropical beaches. Let's design your dream journey together!",
+    "welcomeP3": "",
+    "licensesTitle": "Official Licenses & Accreditations",
+    "licenseName": "License Name",
+    "guideType": "Guide Type",
+    "guideNumber": "Guide Number",
+    "authorizedBy": "Authorized by: Sri Lanka Tourism",
+    "allIsland": "All Island",
+    "nationalGuideLecturer": "National Tourist Guide Lecturer",
+    "chauffeurGuideLecturer": "Chauffeur Tourist Guide Lecturer",
+    "badges": {
+      "licensed": "Licensed National Guide",
+      "rated": "5-Star Rated",
+      "travelers": "1000+ Travelers",
+      "countries": "30+ Countries",
+      "passionate": "Passionate Local"
+    },
+    "journeyTitle": "My Journey",
+    "timeline": {
+      "training": {
+        "year": "2020",
+        "title": "Specialized Training",
+        "description": "Completed advanced wildlife and cultural heritage courses"
+      },
+      "travelers": {
+        "year": "2024",
+        "title": "1000+ Happy Travelers",
+        "description": "Proud to have helped over 1000 travelers discover Sri Lanka"
+      },
+      "chauffeur": {
+        "year": "2026",
+        "title": "Chauffeur Guide Lecturer License",
+        "description": "Officially certified as a Chauffeur Tourist Guide Lecturer (C-1754) by Sri Lanka Tourism"
+      },
+      "national": {
+        "year": "2026",
+        "title": "National Guide Lecturer License",
+        "description": "Achieved the prestigious National Tourist Guide Lecturer license (N-2355) from Sri Lanka Tourism"
+      }
+    },
+    "whyTitle": "Why Travel With Me",
+    "why1Title": "Local Expertise",
+    "why1Desc": "Born and raised in Sri Lanka, I know the best spots, local secrets, and authentic experiences you won't find in guidebooks.",
+    "why2Title": "Personalized Service",
+    "why2Desc": "Every traveler is unique. I customize each tour to match your interests, pace, and preferences for a truly personal experience.",
+    "why3Title": "Passionate Storyteller",
+    "why3Desc": "History comes alive through stories. I share the legends, culture, and traditions that make each place special."
+  },
+  "Reviews": {
+    "title": "TRUSTED BY",
+    "titleHighlight": "WORLD TRAVELERS",
+    "subtitle": "Real experiences from our global family",
+    "badgeTitle": "tripadvisor",
+    "badgeRating": "5.0",
+    "badgeCount": "100+ Reviews",
+    "badgeRank": "Ranked #1 Recommended Guide in Sri Lanka →",
+    "testimonials": [
+      {
+        "name": "Jessica M.",
+        "country": "UK",
+        "text": "Sohan is an absolute gem! We spent 10 days touring Sri Lanka with him and it felt like traveling with an old friend. His knowledge of history and nature is unmatched."
+      },
+      {
+        "name": "Davide & Chiara",
+        "country": "Italy",
+        "text": "Unforgettable experience! Sohan organized everything perfectly, from the safari in Yala to the train ride in Ella. He is a safe driver and a wonderful person."
+      },
+      {
+        "name": "Thomas H.",
+        "country": "Germany",
+        "text": "The best decision we made was booking with Sohan. He showed us hidden waterfalls and local food spots we would never have found on our own. Highly recommended!"
+      },
+      {
+        "name": "Sarah Jenkins",
+        "country": "Australia",
+        "text": "Sohan tailored the entire trip to our interests. His passion for his country is contagious. If you're going to Sri Lanka, you need Sohan as your guide!"
+      },
+      {
+        "name": "Pierre Dubois",
+        "country": "France",
+        "text": "Excellent service. Sohan was always punctual, very polite, and his english is perfect. The van was clean and comfortable for our family of four."
+      },
+      {
+        "name": "Emily Chen",
+        "country": "Singapore",
+        "text": "A magical trip thanks to Sohan. He knew exactly when to visit popular sites to avoid crowds. The cultural triangle tour was the highlight!"
+      }
+    ]
+  },
+  "Footer": {
+    "description": "Licensed Sri Lanka National Guide offering authentic, personalized tours across the beautiful island.",
+    "location": "Sri Lanka",
+    "quickLinks": "Quick Links",
+    "connect": "Connect With Me",
+    "allRights": "© {year} Travel With Sohan. All rights reserved.",
+    "crafted": "Crafted with ♥ by"
+  }
+}
