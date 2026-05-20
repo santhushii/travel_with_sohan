@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 const baseUrl = 'https://travelwithsohan.com';
-const locales = ['en', 'es'];
+const locales = ['en'/*, 'es'*/];
 const pages = [
     { path: '', priority: 1, changeFrequency: 'monthly' as const },
     { path: 'about', priority: 0.8, changeFrequency: 'monthly' as const },

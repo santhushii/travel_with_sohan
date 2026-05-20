@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Link, usePathname } from "@/i18n/navigation";
+import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { useTranslations } from "next-intl";
 import { Menu, X, Search, Globe } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -119,6 +119,7 @@ export default function Navbar() {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const pathname = usePathname();
+    const router = useRouter();
 
     const navLinks = [
         { name: t("home"), href: "/" },
@@ -207,8 +208,9 @@ export default function Navbar() {
 
                     {/* Right Side: Chat Button + Language + Search */}
                     <div className="hidden md:flex items-center gap-3 shrink-0">
-                        {/* Language Switcher */}
+                        {/* Language Switcher (Commented out for English-only site)
                         <LocaleSwitcher />
+                        */}
 
                         {/* Search Bar Implementation */}
                         <div className="relative flex items-center">
@@ -218,8 +220,7 @@ export default function Navbar() {
                                     const form = e.target as HTMLFormElement;
                                     const input = form.elements.namedItem("search") as HTMLInputElement;
                                     if (input.value.trim()) {
-                                        // Simple navigation to tours page with search param
-                                        window.location.href = `/tours?q=${encodeURIComponent(input.value.trim())}`;
+                                        router.push(`/tours?q=${encodeURIComponent(input.value.trim())}`);
                                     }
                                     setIsSearchOpen(false);
                                 }}
@@ -335,13 +336,14 @@ export default function Navbar() {
                             );
                         })}
 
-                        {/* Mobile Language Selector */}
+                        {/* Mobile Language Selector (Commented out for English-only site)
                         <div className="pt-6 border-t border-white/10 mt-6 space-y-3">
                             <p className="text-[10px] font-black text-primary tracking-[0.2em] uppercase px-4">Language / Idioma</p>
                             <div className="px-4">
                                 <LocaleSwitcher />
                             </div>
                         </div>
+                        */}
 
                         <button
                             onClick={() => {

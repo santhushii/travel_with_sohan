@@ -102,8 +102,8 @@ export async function generateMetadata({ params: paramsPromise }: { params: Prom
       canonical: `${baseUrl}/${locale}`,
       languages: {
         en: `${baseUrl}/en`,
-        es: `${baseUrl}/es`,
-        ja: `${baseUrl}/ja`,
+        // es: `${baseUrl}/es`,
+        // ja: `${baseUrl}/ja`,
         'x-default': `${baseUrl}/en`,
       },
     },

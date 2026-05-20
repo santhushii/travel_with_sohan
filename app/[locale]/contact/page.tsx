@@ -14,7 +14,7 @@ const faqs = [
     },
     {
         question: "How do I book a tour?",
-        answer: "Simply contact me via WhatsApp or email with your travel dates, interests, and group size. I'll create a personalized itinerary and details for you.",
+        answer: "Simply contact me via WhatsApp with your travel dates, interests, and group size. I'll create a personalized itinerary and details for you.",
     },
     {
         question: "What services are included in a tour?",
@@ -47,7 +47,7 @@ export default function ContactPage() {
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        const whatsappMessage = `Hi Sohan,\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
+        const whatsappMessage = `Hi Sohan,\n\nName: ${formData.name}${formData.email ? `\nEmail: ${formData.email}` : ''}\n\nMessage:\n${formData.message}`;
         window.open(generateWhatsAppURL("+94715567211", whatsappMessage), "_blank");
     };
 
@@ -86,6 +86,7 @@ export default function ContactPage() {
                                 />
                             </div>
 
+                            {/* Commented out as email is not yet used
                             <div>
                                 <label htmlFor="email" className="block text-sm font-semibold text-gray-300 mb-2">
                                     Email Address
@@ -100,6 +101,7 @@ export default function ContactPage() {
                                     placeholder="john@example.com"
                                 />
                             </div>
+                            */}
 
                             <div>
                                 <label htmlFor="message" className="block text-sm font-semibold text-gray-300 mb-2">
@@ -139,6 +141,7 @@ export default function ContactPage() {
                                     </div>
                                 </div>
 
+                                {/* Commented out as email is not yet available
                                 <div className="flex items-start gap-4">
                                     <div className="p-3 bg-teal-500/20 rounded-lg">
                                         <Mail size={24} className="text-teal-400" />
@@ -148,6 +151,7 @@ export default function ContactPage() {
                                         <p className="text-white font-semibold">sohan@example.com</p>
                                     </div>
                                 </div>
+                                */}
 
                                 <div className="flex items-start gap-4">
                                     <div className="p-3 bg-teal-500/20 rounded-lg">

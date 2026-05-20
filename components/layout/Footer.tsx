@@ -101,7 +101,7 @@ const socialLinks = [
     { name: "Facebook", icon: Facebook, href: "https://www.facebook.com/share/1Ae5ayxpNh/?mibextid=wwXIfr" },
     { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/travel_with_sohan?igsh=MWF1Y3ZraTgzcnp1NQ==" },
     { name: "TripAdvisor", icon: null, href: "https://www.tripadvisor.com/Attraction_Review-g293962-d17652201-Reviews-Travel_with_Sohan-Colombo_Western_Province.html" },
-    { name: "Email", icon: Mail, href: "mailto:sohan@example.com" },
+    // { name: "Email", icon: Mail, href: "mailto:sohan@example.com" },
 ];
 
 export default function Footer() {
@@ -172,10 +172,12 @@ export default function Footer() {
                                 <Phone size={14} className="text-primary" />
                                 <span>+94 71 556 7211</span>
                             </a>
+                            {/* Commented out as email is not yet available
                             <a href="mailto:sohan@example.com" className="flex items-center justify-center sm:justify-start gap-3 text-white/70 hover:text-primary text-sm transition-colors font-medium">
                                 <Mail size={14} className="text-primary" />
                                 <span>sohan@example.com</span>
                             </a>
+                            */}
                         </div>
                         <div className="flex justify-center sm:justify-start gap-4">
                             {socialLinks.map((social) => {
