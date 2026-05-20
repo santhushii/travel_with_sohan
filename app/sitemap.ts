@@ -6,6 +6,7 @@ const pages = [
     { path: '', priority: 1, changeFrequency: 'monthly' as const },
     { path: 'about', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: 'tours', priority: 0.9, changeFrequency: 'weekly' as const },
+    { path: 'destinations', priority: 0.8, changeFrequency: 'monthly' as const },
     { path: 'gallery', priority: 0.7, changeFrequency: 'monthly' as const },
     { path: 'contact', priority: 0.6, changeFrequency: 'yearly' as const },
 ];

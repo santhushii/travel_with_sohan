@@ -29,11 +29,7 @@ html {
   font-size: 16px; /* Base size */
 }
 
-@media (max-width: 640px) {
-  html {
-    font-size: 14px; /* Slightly smaller base for mobile to scale rem better */
-  }
-}
+
 
 @media (prefers-reduced-motion: reduce) {
   html {

@@ -80,7 +80,7 @@ export default function Hero() {
                             {/* Left Column: Title and Subtitle */}
                             <div className="relative z-10 space-y-6 md:space-y-8 text-center lg:text-left">
                                 <div className="will-change-transform">
-                                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-[4.5rem] xl:text-[5.5rem] font-black tracking-tighter uppercase leading-[0.9] font-heading mix-blend-lighten">
+                                    <h1 className="text-[2rem] sm:text-4xl md:text-5xl lg:text-[4.5rem] xl:text-[5.5rem] font-black tracking-tighter uppercase leading-[0.85] font-heading mix-blend-lighten">
                                         <span className="hero-title-main block text-white/90 drop-shadow-2xl">{t("title1")}</span>
                                         <span className="hero-title-main block text-primary drop-shadow-[0_0_30px_rgba(34,230,197,0.4)]">{t("title2")}</span>
                                     </h1>
