@@ -11,6 +11,7 @@ import { Link } from "@/i18n/navigation";
 import { IMAGES } from "@/config/images";
 import { cn } from "@/lib/utils";
 import QuickBookModal from "@/components/ui/QuickBookModal";
+import { blurDataURL } from "@/lib/image-utils";
 
 import { useGSAP } from "@gsap/react";
 
@@ -62,7 +63,9 @@ export default function Hero() {
                     sizes="100vw"
                     className="hero-background-img object-cover scale-110"
                     priority
-                    quality={90}
+                    quality={85}
+                    placeholder="blur"
+                    blurDataURL={blurDataURL(1920, 1080)}
                 />
                 {/* Dark Gradient Overlay - More cinematic */}
                 <div 

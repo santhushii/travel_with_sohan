@@ -9,6 +9,7 @@ import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { IMAGES } from "@/config/images";
 import { Link } from "@/i18n/navigation";
+import { blurDataURL, IMAGE_QUALITY_DEFAULT, IMAGE_QUALITY_HIGH } from "@/lib/image-utils";
 
 const WhatsAppIcon = ({ className = "w-4 h-4" }: { className?: string }) => (
     <svg 
@@ -115,6 +116,9 @@ function ToursList() {
                                 className="object-cover animate-fade-in"
                                 sizes="(max-width: 1024px) 100vw, 1000px"
                                 priority
+                                quality={IMAGE_QUALITY_HIGH}
+                                placeholder="blur"
+                                blurDataURL={blurDataURL(1000, 400)}
                             />
                             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
                             <div className="absolute top-6 left-6">
@@ -275,6 +279,10 @@ function ToursList() {
                                         fill
                                         className="object-cover transition-transform duration-1000 group-hover:scale-110"
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                        loading="lazy"
+                                        quality={IMAGE_QUALITY_DEFAULT}
+                                        placeholder="blur"
+                                        blurDataURL={blurDataURL(400, 260)}
                                     />
                                     <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black to-transparent" />
                                     

@@ -5,6 +5,7 @@ import Image from "next/image";
 import GlassCard from "@/components/ui/GlassCard";
 import { Calendar, Clock, MapPin } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { blurDataURL, IMAGE_QUALITY_DEFAULT } from "@/lib/image-utils";
 
 const destinations = [
     {
@@ -127,6 +128,10 @@ export default function DestinationsPage() {
                                     height={400}
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                                    loading="lazy"
+                                    quality={IMAGE_QUALITY_DEFAULT}
+                                    placeholder="blur"
+                                    blurDataURL={blurDataURL(500, 400)}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent" />
                                 <div className="absolute bottom-0 left-0 right-0 p-6">

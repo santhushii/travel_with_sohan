@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { blurDataURL, IMAGE_QUALITY_DEFAULT, IMAGE_QUALITY_HIGH } from "@/lib/image-utils";
 
 const galleryImages = [
     {
@@ -111,12 +112,15 @@ export default function GalleryPage() {
                             <div className="relative overflow-hidden rounded-xl border border-white/5 group-hover:border-primary/30 transition-colors duration-300">
                                 <Image
                                     src={image.url}
-                                    alt="Sri Lanka Tour Memory"
+                                    alt={image.title}
                                     width={600}
                                     height={800}
                                     className="w-full h-auto object-cover group-hover:scale-105 transition-transform duration-500"
                                     loading="lazy"
                                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                                    quality={IMAGE_QUALITY_DEFAULT}
+                                    placeholder="blur"
+                                    blurDataURL={blurDataURL(600, 800)}
                                 />
                             </div>
                         </div>
@@ -162,11 +166,12 @@ export default function GalleryPage() {
 
                     <Image
                         src={galleryImages.find((img) => img.id === lightboxImage)?.url || ""}
-                        alt="Sri Lanka Tour Memory Fullscreen"
+                        alt={galleryImages.find((img) => img.id === lightboxImage)?.title || "Sri Lanka Tour Memory"}
                         width={1200}
                         height={800}
                         className="max-w-full max-h-full object-contain"
                         onClick={(e) => e.stopPropagation()}
+                        quality={IMAGE_QUALITY_HIGH}
                     />
                 </div>
             )}

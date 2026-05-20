@@ -9,6 +9,7 @@ import { Link } from "@/i18n/navigation";
 import { ArrowUpRight, MapPin, Clock } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useGSAP } from "@gsap/react";
+import { blurDataURL, IMAGE_QUALITY_DEFAULT } from "@/lib/image-utils";
 
 export default function PopularToursSection() {
     const t = useTranslations("PopularTours");
@@ -101,6 +102,10 @@ export default function PopularToursSection() {
                                     fill
                                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                                     className="object-cover transition-all duration-1000 group-hover:scale-105"
+                                    loading="lazy"
+                                    quality={IMAGE_QUALITY_DEFAULT}
+                                    placeholder="blur"
+                                    blurDataURL={blurDataURL(400, 450)}
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent group-hover:via-black/60 transition-all duration-700" />
                             </div>

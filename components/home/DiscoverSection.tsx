@@ -9,6 +9,7 @@ import { IMAGES } from "@/config/images";
 import { useGSAP } from "@gsap/react";
 import { Link } from "@/i18n/navigation";
 import { gsap } from "gsap";
+import { blurDataURL, IMAGE_QUALITY_DEFAULT } from "@/lib/image-utils";
 
 export default function DiscoverSection() {
     const t = useTranslations("Discover");
@@ -93,6 +94,10 @@ export default function DiscoverSection() {
                                 fill
                                 sizes="(max-width: 1024px) 100vw, 50vw"
                                 className="object-cover transition-transform duration-1000 group-hover:scale-110"
+                                loading="lazy"
+                                quality={IMAGE_QUALITY_DEFAULT}
+                                placeholder="blur"
+                                blurDataURL={blurDataURL(600, 800)}
                             />
                             {/* Overlay Vignette */}
                             <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black via-black/40 to-transparent" />
@@ -109,6 +114,10 @@ export default function DiscoverSection() {
                                 fill
                                 sizes="320px"
                                 className="object-cover"
+                                loading="lazy"
+                                quality={IMAGE_QUALITY_DEFAULT}
+                                placeholder="blur"
+                                blurDataURL={blurDataURL(320, 180)}
                             />
                         </div>
                         
