@@ -99,12 +99,10 @@ export async function generateMetadata({ params: paramsPromise }: { params: Prom
     metadataBase: new URL(baseUrl),
     keywords: meta.keywords,
     alternates: {
-      canonical: `${baseUrl}/${locale}`,
+      canonical: baseUrl,
       languages: {
-        en: `${baseUrl}/en`,
-        // es: `${baseUrl}/es`,
-        // ja: `${baseUrl}/ja`,
-        'x-default': `${baseUrl}/en`,
+        en: baseUrl,
+        'x-default': baseUrl,
       },
     },
     title: {

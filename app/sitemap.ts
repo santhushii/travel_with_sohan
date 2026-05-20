@@ -18,7 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: page.priority,
         alternates: {
             languages: locales.reduce((acc, locale) => {
-                acc[locale] = `${baseUrl}/${locale}${page.path ? `/${page.path}` : ''}`;
+                acc[locale] = `${baseUrl}${page.path ? `/${page.path}` : ''}`;
                 return acc;
             }, {} as Record<string, string>),
         },
