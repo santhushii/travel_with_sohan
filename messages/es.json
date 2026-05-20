@@ -2,77 +2,77 @@
   "Navbar": {
     "home": "Inicio",
     "about": "Acerca de",
-    "tours": "Toures",
+    "tours": "Tours",
     "destinations": "Destinos",
     "gallery": "Galería",
     "reviews": "Reseñas",
     "contact": "Contacto",
-    "chat": "Chatear"
+    "chat": "Chat"
   },
   "Hero": {
     "title1": "VIAJA CON",
     "title2": "SOHAN",
-    "cta": "Reserva tu Viaje",
-    "subtitle": "Vive el auténtico Sri Lanka con un guía nacional con licencia.",
-    "item1": "Triángulo Cultural — Templos antiguos, ciudades sagradas",
-    "item2": "Tierras Altas — Plantaciones de té, montañas brumosas",
-    "item3": "Safari y Naturaleza — Elefantes, leopardos, aves exóticas",
-    "item4": "Playas de la Costa Sur — Costas vírgenes, aguas turquesas",
-    "item5": "Comida y Vida Rural — Cocina auténtica, experiencias locales",
-    "feature1": "Guía Nacional Licenciado",
-    "feature2": "Toures Privados Personalizados",
-    "feature3": "Soporte WhatsApp 24/7"
+    "cta": "Reserva tu viaje",
+    "subtitle": "Vive el auténtico Sri Lanka con un guía nacional certificado.",
+    "item1": "Triángulo cultural — Templos antiguos, ciudades sagradas y un rico patrimonio",
+    "item2": "Tierras Altas — Plantaciones de té, montañas brumosas y clima fresco",
+    "item3": "Safari y vida silvestre — Elefantes, leopardos y aves exóticas",
+    "item4": "Playas de la costa sur — Playas vírgenes y aguas turquesas",
+    "item5": "Gastronomía y vida rural — Cocina auténtica y experiencias locales",
+    "feature1": "Guía nacional certificado",
+    "feature2": "Tours privados personalizados",
+    "feature3": "Soporte por WhatsApp 24/7"
   },
   "PopularTours": {
-    "overline": "Experiencias Seleccionadas",
-    "title": "TOURES MÁS POPULARES",
-    "viewAll": "Explorar Todos",
+    "overline": "Experiencias recomendadas",
+    "title": "TOURS MÁS POPULARES",
+    "viewAll": "Explorar todos los tours",
     "tour1Title": "Sigiriya y Dambulla",
     "tour2Title": "Ella y Nuwara Eliya",
-    "tour3Title": "Yala Safari y Costa",
+    "tour3Title": "Safari en Yala y la costa",
     "tour4Title": "Galle y Mirissa"
   },
   "Discover": {
     "title1": "DESCUBRE EL MUNDO",
-    "title2": "DE UNA NUEVA",
-    "title3": "manera",
-    "description": "Descubre los tesoros ocultos de Sri Lanka con itinerarios personalizados que van más allá de la guía turística.",
+    "title2": "DE UNA FORMA",
+    "title3": "NUEVA",
+    "description": "Descubre los tesoros ocultos de Sri Lanka con itinerarios personalizados que van más allá de las guías de viaje convencionales.",
     "exploreTours": "EXPLORAR TOURS",
     "viewGallery": "VER GALERÍA",
-    "quote": "Viajar te hace modesto. Ves el mundo de una manera que nunca imaginaste.",
+    "quote": "Viajar te hace humilde. Ves el mundo de una manera que nunca imaginaste.",
     "author": "CARLOS CASTANEDA"
   },
   "Tours": {
     "titlePrefix": "Nuestros",
-    "titleSuffix": "Toures",
-    "subtitle": "Experiencias artesanales diseñadas para mostrar lo mejor de Sri Lanka",
+    "titleSuffix": "tours",
+    "subtitle": "Experiencias meticulosamente diseñadas para mostrar lo mejor de Sri Lanka",
     "filters": {
       "title": "Filtrar por",
-      "type": "Tipo de Tour",
+      "type": "Tipo de tour",
       "duration": "Duración",
-      "allTypes": "Todos los Tipos",
-      "allDurations": "Cualquier Duración",
+      "allTypes": "Todos los tipos",
+      "allDurations": "Cualquier duración",
       "culture": "Cultural",
       "beach": "Playa",
       "safari": "Safari",
       "hiking": "Senderismo",
-      "short": "1-3 Días",
-      "medium": "4-6 Días",
-      "long": "7+ Días"
+      "short": "1-3 días",
+      "medium": "4-6 días",
+      "long": "7+ días"
     },
-    "request": "Solicitar este Tour",
-    "noTours": "No hay toures que coincidan con tus filtros. Intenta ajustar tu selección."
+    "request": "Solicitar este tour",
+    "noTours": "No hay tours que coincidan con tus filtros. Intenta ajustar tu selección."
   },
   "Common": {
     "explore": "Explorar",
-    "learnMore": "Saber más"
+    "learnMore": "Más información"
   },
   "QuickBook": {
-    "title": "Planifica tu Viaje",
-    "subtitle": "Completa los detalles y comienza tu aventura en Sri Lanka hoy mismo.",
+    "title": "Planifica tu viaje",
+    "subtitle": "Completa los detalles e inicia tu aventura en Sri Lanka hoy mismo.",
     "submit": "Confirmar por WhatsApp",
-    "successTitle": "¡Solicitud Enviada!",
-    "successDesc": "Te responderé por WhatsApp en menos de 24 horas."
+    "successTitle": "¡Solicitud enviada!",
+    "successDesc": "Me pondré en contacto contigo por WhatsApp en un plazo de 24 horas."
   },
   "LocaleSwitcher": {
     "label": "Idioma"
@@ -82,103 +82,103 @@
     "headerTitleHighlight": "Sohan",
     "headerSubtitle": "Tu guía de confianza para vivir experiencias auténticas en Sri Lanka",
     "profileName": "Sohan Nallaperuma",
-    "profileTitle": "National Tourist Guide Lecturer",
-    "welcomeTitle": "Bienvenidos a mi Sri Lanka",
-    "welcomeP1": "¡Ayubowan! Soy Sohan Nallaperuma, Profesor Guía de Turismo Nacional y Guía Chófer con licencia y con más de 10 años de experiencia. Nacido y criado en esta isla paradisíaca, me encanta mostrar a los viajeros el verdadero corazón de Sri Lanka, desde su patrimonio antiguo hasta sus joyas ocultas.",
-    "welcomeP2": "Me especializo en diseñar toures privados y personalizados adaptados a tus intereses, ya sea que busques historia cultural, safaris de vida silvestre, viajes en tren pintorescos o playas tropicales. ¡Diseñemos juntos el viaje de tus sueños!",
+    "profileTitle": "Guía nacional de turismo certificado",
+    "welcomeTitle": "Bienvenido a mi Sri Lanka",
+    "welcomeP1": "¡Ayubowan! Soy Sohan Nallaperuma, guía nacional de turismo y guía-conductor certificado por la Oficina de Turismo de Sri Lanka, con más de 10 años de experiencia. Nacido y criado en esta isla paradisíaca, me apasiona mostrar a los viajeros el verdadero corazón de Sri Lanka, desde su patrimonio histórico hasta sus joyas ocultas.",
+    "welcomeP2": "Me especializo en diseñar tours privados personalizados y sin complicaciones, adaptados a tus intereses, ya sea que busques historia cultural, safaris de vida silvestre, viajes panorámicos en tren o playas tropicales. ¡Diseñemos juntos el viaje de tus sueños!",
     "welcomeP3": "",
-    "licensesTitle": "Licencias Oficiales y Acreditaciones",
-    "licenseName": "Nombre de Licencia",
-    "guideType": "Tipo de Guía",
-    "guideNumber": "Número de Guía",
-    "authorizedBy": "Autorizado por: Sri Lanka Tourism",
-    "allIsland": "Todo el País",
-    "nationalGuideLecturer": "National Tourist Guide Lecturer",
-    "chauffeurGuideLecturer": "Chauffeur Tourist Guide Lecturer",
+    "licensesTitle": "Licencias y acreditaciones oficiales",
+    "licenseName": "Nombre de la licencia",
+    "guideType": "Tipo de guía",
+    "guideNumber": "Número de licencia",
+    "authorizedBy": "Autorizado por: Oficina de Turismo de Sri Lanka",
+    "allIsland": "Toda la isla",
+    "nationalGuideLecturer": "Guía nacional de turismo certificado",
+    "chauffeurGuideLecturer": "Guía-conductor de turismo certificado",
     "badges": {
-      "licensed": "Guía Nacional Licenciado",
-      "rated": "Calificación de 5 Estrellas",
-      "travelers": "+1000 Viajeros",
-      "countries": "+30 Países",
-      "passionate": "Apasionado Local"
+      "licensed": "Guía nacional certificado",
+      "rated": "Clasificación de 5 estrellas",
+      "travelers": "Más de 1000 viajeros",
+      "countries": "Más de 30 países",
+      "passionate": "Guía local apasionado"
     },
-    "journeyTitle": "Mi Trayectoria",
+    "journeyTitle": "Mi trayectoria",
     "timeline": {
       "training": {
         "year": "2020",
-        "title": "Entrenamiento Especializado",
-        "description": "Completó cursos avanzados de vida silvestre y patrimonio cultural"
+        "title": "Capacitación especializada",
+        "description": "Completé cursos avanzados sobre fauna silvestre y patrimonio cultural."
       },
       "travelers": {
         "year": "2024",
-        "title": "+1000 Viajeros Felices",
-        "description": "Orgulloso de haber ayudado a más de 1000 viajeros a descubrir Sri Lanka"
+        "title": "Más de 1000 viajeros felices",
+        "description": "Orgulloso de haber guiado a más de 1000 viajeros a descubrir la belleza de Sri Lanka."
       },
       "chauffeur": {
         "year": "2026",
-        "title": "Licencia de Profesor Guía Chófer",
-        "description": "Certificado oficialmente como Profesor Guía de Turismo Chófer (C-1754) por Sri Lanka Tourism"
+        "title": "Licencia de guía-conductor de turismo",
+        "description": "Certificado oficialmente como guía-conductor de turismo (C-1754) por la Oficina de Turismo de Sri Lanka."
       },
       "national": {
         "year": "2026",
-        "title": "Licencia de Profesor Guía Nacional",
-        "description": "Obtuvo la prestigiosa licencia de Profesor Guía de Turismo Nacional (N-2355) de Sri Lanka Tourism"
+        "title": "Licencia de guía nacional de turismo",
+        "description": "Obtuve la prestigiosa licencia de guía nacional de turismo (N-2355) de la Oficina de Turismo de Sri Lanka."
       }
     },
     "whyTitle": "Por qué viajar conmigo",
-    "why1Title": "Experiencia Local",
-    "why1Desc": "Nacido y criado en Sri Lanka, conozco los mejores lugares, secretos locales y experiencias auténticas que no encontrarás en las guías de viaje.",
-    "why2Title": "Servicio Personalizado",
-    "why2Desc": "Cada viajero es único. Personalizo cada recorrido para que se adapte a tus intereses, ritmo y preferencias para una experiencia verdaderamente personal.",
-    "why3Title": "Narrador Apasionado",
-    "why3Desc": "La historia cobra vida a través de los relatos. Comparto las leyendas, cultura y tradiciones que hacen que cada lugar sea especial."
+    "why1Title": "Experiencia local",
+    "why1Desc": "Nacido y criado en Sri Lanka, conozco los mejores lugares, secretos locales y experiencias auténticas que no encontrarás en las guías de viaje convencionales.",
+    "why2Title": "Servicio personalizado",
+    "why2Desc": "Cada viajero es único. Adapto cada tour a tus intereses, ritmo y preferencias para garantizar una experiencia completamente personalizada.",
+    "why3Title": "Narrador apasionado",
+    "why3Desc": "La historia cobra vida a través de los relatos. Comparto contigo las leyendas, la cultura y las tradiciones que hacen especial cada rincón de la isla."
   },
   "Reviews": {
-    "title": "CONFIADO POR",
+    "title": "LA CONFIANZA DE",
     "titleHighlight": "VIAJEROS DEL MUNDO",
-    "subtitle": "Experiencias reales de nuestra familia global",
+    "subtitle": "Experiencias reales de nuestra comunidad global",
     "badgeTitle": "tripadvisor",
     "badgeRating": "5.0",
-    "badgeCount": "100+ Reseñas",
+    "badgeCount": "Más de 100 reseñas",
     "badgeRank": "Clasificado como el guía recomendado n.º 1 en Sri Lanka →",
     "testimonials": [
       {
         "name": "Jessica M.",
         "country": "Reino Unido",
-        "text": "¡Sohan es una joya absoluta! Pasamos 10 días recorriendo Sri Lanka con él y fue como viajar con un viejo amigo. Su conocimiento de la historia y la naturaleza no tiene comparación."
+        "text": "¡Sohan es una verdadera joya! Pasamos 10 días recorriendo Sri Lanka con él y fue como viajar con un viejo amigo. Su conocimiento de la historia y la naturaleza es incomparable."
       },
       {
         "name": "Davide & Chiara",
         "country": "Italia",
-        "text": "¡Experiencia inolvidable! Sohan organizó todo a la perfección, desde el safari en Yala hasta el viaje en tren en Ella. Es un conductor seguro y una persona maravillosa."
+        "text": "¡Una experiencia inolvidable! Sohan organizó todo a la perfección, desde el safari en Yala hasta el viaje en tren en Ella. Es un conductor seguro y una persona maravillosa."
       },
       {
         "name": "Thomas H.",
         "country": "Alemania",
-        "text": "La mejor decisión que tomamos fue reservar con Sohan. Nos mostró cascadas ocultas y lugares de comida local que nunca habríamos encontrado por nuestra cuenta. ¡Muy recomendable!"
+        "text": "La mejor decisión que tomamos fue reservar con Sohan. Nos mostró cascadas ocultas y lugares de comida local que nunca habríamos encontrado por nuestra cuenta. ¡Totalmente recomendado!"
       },
       {
         "name": "Sarah Jenkins",
         "country": "Australia",
-        "text": "Sohan adaptó todo el viaje a nuestros intereses. Su pasión por su país es contagiosa. ¡Si vas a Sri Lanka, necesitas a Sohan como tu guía!"
+        "text": "Sohan adaptó todo el viaje a nuestros intereses. Su pasión por su país es contagiosa. Si visitas Sri Lanka, ¡necesitas a Sohan como guía!"
       },
       {
         "name": "Pierre Dubois",
         "country": "Francia",
-        "text": "Excelente servicio. Sohan fue siempre puntual, muy educado y su inglés es perfecto. La van era limpia y cómoda para nuestra familia de cuatro."
+        "text": "Excelente servicio. Sohan fue siempre muy puntual, educado y habla un inglés perfecto. El vehículo estaba muy limpio y era cómodo para nuestra familia de cuatro personas."
       },
       {
         "name": "Emily Chen",
         "country": "Singapur",
-        "text": "Un viaje mágico gracias a Sohan. Sabía exactamente cuándo visitar los sitios populares para evitar las multitudes. ¡El recorrido por el triángulo cultural fue lo mejor!"
+        "text": "Un viaje mágico gracias a Sohan. Sabía exactamente cuándo visitar los lugares populares para evitar las aglomeraciones. ¡El recorrido del triángulo cultural fue lo mejor del viaje!"
       }
     ]
   },
   "Footer": {
-    "description": "Guía Nacional de Sri Lanka con licencia que ofrece recorridos auténticos y personalizados por toda la hermosa isla.",
+    "description": "Guía nacional de Sri Lanka certificado que ofrece tours auténticos y personalizados en toda la isla.",
     "location": "Sri Lanka",
-    "quickLinks": "Enlaces Rápidos",
-    "connect": "Conéctate Conmigo",
+    "quickLinks": "Enlaces rápidos",
+    "connect": "Conéctate conmigo",
     "allRights": "© {year} Travel With Sohan. Todos los derechos reservados.",
     "crafted": "Diseñado con ♥ por"
   }
