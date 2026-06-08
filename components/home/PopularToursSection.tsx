@@ -17,6 +17,15 @@ export default function PopularToursSection() {
 
     const tours = [
         {
+            id: 7,
+            label: "MOST FAMOUS",
+            title: t("tourFamousTitle", { fallback: "Most Famous Itinerary" }),
+            location: "Island Wide",
+            duration: "9 Days",
+            image: IMAGES.tours.sigiriya,
+            href: "/tours?tour=7",
+        },
+        {
             id: 1,
             label: "TOUR 01",
             title: t("tour1Title", { fallback: "Sigiriya & Dambulla" }),
