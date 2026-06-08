@@ -22,7 +22,7 @@ export default function PopularToursSection() {
             title: t("tourFamousTitle", { fallback: "Most Famous Itinerary" }),
             location: "Island Wide",
             duration: "9 Days",
-            image: IMAGES.tours.sigiriya,
+            image: IMAGES.discovery.waterfall,
             href: "/tours?tour=7",
         },
         {

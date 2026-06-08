@@ -36,7 +36,7 @@ function ToursList() {
             id: 7,
             title: "Most Famous Itinerary",
             description: "Our 8 Nights / 9 Days tour program covering the very best of Sri Lanka.\n\nItinerary:\nDay 1: Airport \u2192 Sigiriya (Overnight: Sigiriya)\nDay 2: Sigiriya \u2192 Polonnaruwa \u2192 Sigiriya (Overnight: Sigiriya)\nDay 3: Sigiriya \u2192 Dambulla \u2192 Kandy (Overnight: Kandy)\nDay 4: Kandy \u2192 Pinnawala \u2192 Kandy (Overnight: Kandy)\nDay 5: Kandy \u2192 Nuwara Eliya \u2192 Ella (Overnight: Ella)\nDay 6: Excursion in Ella (Overnight: Ella)\nDay 7: Ella \u2192 Yala Safari (Overnight: Yala)\nDay 8: Yala \u2192 Mirissa (Overnight: Galle)\nDay 9: Galle \u2192 Airport",
-            image: IMAGES.tours.sigiriya,
+            image: IMAGES.discovery.waterfall,
             duration: "9 Days",
             type: "culture",
         },
