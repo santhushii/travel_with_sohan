@@ -110,11 +110,7 @@ export async function generateMetadata({ params: paramsPromise }: { params: Prom
       template: `%s | ${meta.title.split('|')[0].trim()}`,
     },
     description: meta.description,
-    icons: {
-      icon: '/favicon.ico',
-      shortcut: '/favicon.ico',
-      apple: '/apple-touch-icon.png',
-    },
+
     openGraph: {
       ...baseMetadata.openGraph,
       title: meta.title,
