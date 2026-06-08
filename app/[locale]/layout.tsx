@@ -37,7 +37,7 @@ const baseUrl = "https://travelwithsohan.com";
 
 const LOCALIZED_METADATA: Record<string, { title: string; description: string; keywords: string[] }> = {
   en: {
-    title: "Travel With Sohan | Licensed Sri Lanka National Guide",
+    title: "Travel With Sohan",
     description: "Travel With Sohan — Experience authentic Sri Lanka with Sohan Nallaperuma, a licensed National Tourist Guide Lecturer. Personalized private tours, wildlife safaris, and custom itineraries.",
     keywords: [
       "Travel With Sohan", "travel with sohan", "travelwithsohan", "Sohan Nallaperuma", "Sohan", 
@@ -47,7 +47,7 @@ const LOCALIZED_METADATA: Record<string, { title: string; description: string; k
     ]
   },
   es: {
-    title: "Travel With Sohan | Guía Nacional de Sri Lanka Licenciado",
+    title: "Travel With Sohan",
     description: "Travel With Sohan — Vive el auténtico Sri Lanka con Sohan Nallaperuma, guía turístico nacional certificado. Viajes privados personalizados, safaris de vida silvestre e itinerarios a medida.",
     keywords: [
       "Travel With Sohan", "viajar con sohan", "guia de sri lanka", "sri lanka en español",
@@ -56,7 +56,7 @@ const LOCALIZED_METADATA: Record<string, { title: string; description: string; k
     ]
   },
   ja: {
-    title: "Travel With Sohan | スリランカ公認ナショナルガイド",
+    title: "Travel With Sohan",
     description: "Travel With Sohan — スリランカ政府公認の国家ガイド、ソハン・ナラペルマと行く本物のスリランカ旅行。プライベートツアー、野生動物サファリ、オーダーメイドの旅程をご提案します。",
     keywords: [
       "スリランカ 旅行", "スリランカ 観光", "スリランカ ガイド", "スリランカ 日本語ガイド",
